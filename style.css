@@ -1,0 +1,89 @@
+html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 65%;
+}
+
+nav {
+    background-color: red;
+    height: 40px;
+    display: flex!important;
+}
+
+li > p {
+    font-weight: bold;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > p {
+    margin: 0!important;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    background-color: yellow;
+    padding: .2rem;
+}
+
+li:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.buscar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    margin-right: .4rem;
+}
+
+.text-search {
+    padding: .4rem;
+    margin: 0!important;
+}
+
+.products {
+    height: 100vh!important;
+}
+
+.kimetsu {
+    width: 95%;
+}
+
+.resena {
+    float: left;
+}
+
+
+
